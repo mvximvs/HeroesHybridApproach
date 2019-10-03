@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+    background: rgb(73, 73, 73);
+    color: lightgray;
+}
+
+/* hero-list{
+    background-color: cadetblue;
+} */
+
+hero-detail {
+    background-color: red;
+}
+
+
+.jstree-default .jstree-search {
+	font-style: italic;
+	color: tomato;
+	font-weight: 700;
+}
+
+.active {
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+.urls {
+margin: 0;
+margin-bottom: 32px;
+padding: 0;
+display: flex;
+flex-direction: row;
+}
